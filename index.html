@@ -7,9 +7,48 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css"  type="text/css">
 
-    <title></title>
+    <title>Destinations</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Destinations</h1>
+      </div>
+      <form class="destinations">
+        <div class="row">
+          <div class="col-sm-4">
+            <label for="location">Location:</label>
+            <br>
+            <input type="text" name="location" value="">
+          </div>
+          <div class="col-sm-4">
+            <label for="date">Date:</label>
+            <br>
+            <input type="date" name="date" value="">
+          </div>
+          <div class="col-sm-4">
+            <label for="notes">Notes:</label>
+            <br>
+            <textarea name="notes" value=""></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <button type="submit" name="submit">Submit</button>
+        </div>
+      </form>
+      <div class="output">
+        <div class="row">
+          <div class="col-md-4" id="location">
 
+          </div>
+          <div class="col-md-4" id="date">
+
+          </div>
+          <div class="col-md-4" id="notes">
+
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
